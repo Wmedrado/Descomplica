@@ -1,0 +1,23 @@
+git init: Inicializa um novo repositório Git no diretório atual. Isso cria um novo diretório .git que armazena todas as informações do repositório.
+
+git clone <URL do repositório>: Cria uma cópia local de um repositório remoto. O comando git clone é usado para baixar todo o histórico do repositório remoto e criar uma cópia local para você trabalhar.
+
+git add <arquivo>: Adiciona um arquivo específico à área de preparação (staging area). Isso prepara o arquivo para ser incluído no próximo commit.
+
+git add . ou git add --all: Adiciona todos os arquivos modificados e novos no diretório atual à área de preparação. Isso prepara todos os arquivos para serem incluídos no próximo commit.
+
+git commit -m "mensagem de commit": Cria um novo commit com as alterações na área de preparação. Um commit registra um instantâneo do estado atual dos arquivos, juntamente com uma mensagem descritiva.
+
+git status: Exibe o estado atual do repositório. Ele mostra os arquivos modificados, os arquivos na área de preparação e outras informações relevantes.
+
+git log: Mostra o histórico de commits do repositório, exibindo informações como os autores dos commits, as mensagens de commit e os identificadores únicos (hashes) dos commits.
+
+git branch: Lista todos os branches existentes no repositório. O branch atual é destacado com um asterisco.
+
+git checkout <branch>: Muda para o branch especificado. Isso permite alternar entre diferentes branches no repositório.
+
+git merge <branch>: Combina as alterações de um branch específico com o branch atual. O comando git merge mescla as alterações trazendo-as para o branch atual.
+
+git pull: Atualiza o repositório local com as alterações mais recentes do repositório remoto. O comando git pull é uma combinação dos comandos git fetch e git merge, buscando e mesclando as alterações automaticamente.
+
+git push: Envia os commits locais para o repositório remoto correspondente. Isso atualiza o repositório remoto com as alterações feitas localmente.
