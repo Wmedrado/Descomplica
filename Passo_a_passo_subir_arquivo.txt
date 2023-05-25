@@ -1,0 +1,27 @@
+Abra o terminal ou prompt de comando no seu sistema operacional.
+
+Navegue até o diretório onde deseja criar o novo repositório. Use o comando cd seguido do caminho do diretório. Por exemplo: cd MeusDocumentos/Projetos.
+
+Inicialize um novo repositório Git no diretório atual usando o comando git init. Isso criará um novo repositório Git local.
+
+Acesse o GitHub em seu navegador e faça login na sua conta.
+
+Clique no botão "New" ou "Novo" para criar um novo repositório.
+
+Dê um nome ao seu repositório e, opcionalmente, forneça uma descrição.
+
+Selecione as opções desejadas, como público ou privado, e a opção para inicializar o repositório com um arquivo README.md (opcional).
+
+Clique no botão "Create repository" ou "Criar repositório" para criar o repositório no GitHub.
+
+Após a criação do repositório, você verá a página do repositório no GitHub com a URL e outras informações.
+
+Volte para o terminal ou prompt de comando. Adicione o link do repositório remoto ao seu repositório local usando o comando git remote add origin <URL do repositório>. Por exemplo: git remote add origin https://github.com/seu-usuario/seu-repositorio.git.
+
+Agora você está pronto para adicionar seu primeiro arquivo. Crie um arquivo no seu diretório local ou mova um arquivo existente para lá.
+
+Use o comando git add <nome-do-arquivo> para adicionar o arquivo à área de preparação. Se você quiser adicionar todos os arquivos, use git add . para adicionar todos os arquivos modificados e novos.
+
+Execute o comando git commit -m "Primeiro commit" para criar o primeiro commit com as alterações.
+
+Por fim, faça o upload das alterações para o repositório remoto usando o comando git push origin master (substitua "master" pelo nome do branch principal, se for diferente).
